@@ -9,16 +9,15 @@ N = int(input())
 A = list(map(int, input().split()))
 #出力
 import itertools
-total = sum(A)
 a = 0
-for n in itertools.combinations(A,N-3):
-    two_no_total = sum(n)
-    if (total-two_no_total) ==1000:
+for n in itertools.combinations(A,3):
+    three_no_total = sum(n)
+    if (three_no_total) ==1000:
         print('Yes')
         a += 1
         break
     else : 
-        two_no_total = 0
+        three_no_total = 0
 if a == 0:
     print('No')
 
