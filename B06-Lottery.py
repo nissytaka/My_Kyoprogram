@@ -5,5 +5,5 @@ URL: https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ce
 B問題
 '''
 #入力
-#出力 
+#出力
     
