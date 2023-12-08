@@ -9,3 +9,4 @@ import math
 ans = N*1.1
 print(math.floor(ans))
 
+
