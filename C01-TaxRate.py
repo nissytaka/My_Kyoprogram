@@ -3,9 +3,7 @@
 URL: 
 """
 #入力
-N = int(input())
+
 #出力
-import math
-ans = N*1.1
-print(math.floor(ans))
+
 
