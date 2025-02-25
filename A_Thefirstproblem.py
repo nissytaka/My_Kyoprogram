@@ -8,7 +8,11 @@ URL:https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_a
 '''
 
 #入力
+N= int(input())
 
 #出力
+answer= N**2
+print(answer)
+
 
 
